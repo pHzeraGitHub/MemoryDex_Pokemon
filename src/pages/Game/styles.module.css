@@ -1,0 +1,13 @@
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  margin-top: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}

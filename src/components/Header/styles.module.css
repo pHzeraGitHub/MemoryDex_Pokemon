@@ -1,0 +1,35 @@
+.container {
+  font-size: 1.625rem;
+  font-weight: bold;
+  padding: 1.5rem 6rem;
+  background: var(--gray-800);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container img {
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.links a {
+  color: var(--gray-300);
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: color 0.2s, text-decoration 0.2s;
+}
+
+.links a.active {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.links a:hover {
+  color: var(--red-500);
+  text-decoration: underline;
+}

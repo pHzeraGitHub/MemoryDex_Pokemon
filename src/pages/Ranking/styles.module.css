@@ -1,0 +1,13 @@
+.ranking {
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  margin: 0 auto;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.profiles {
+}
+
+

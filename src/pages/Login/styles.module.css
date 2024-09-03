@@ -1,0 +1,80 @@
+.home {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background: var(--gray-800);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  padding: 40px;
+  border-radius: 0.5rem;
+  gap: 36px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 21.25rem;
+  margin: auto;
+}
+
+.login img {
+  align-self: center;
+  margin-bottom: 3.75rem;
+  width: 12.5rem;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.login form button {
+  background: var(--red-500);
+  color: var(--white);
+  border: 1px solid var(--red-500);
+  border-radius: 8px;
+  height: 50px;
+  padding: 0 1.25rem;
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+
+  transition: opacity 0.2s;
+}
+
+.login form button:hover {
+  opacity: 0.8;
+}
+
+.login form label {
+  margin-bottom: -10px;
+}
+
+.login form input {
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  background: var(--gray-900);
+  border: 1px solid var(--gray-600);
+  outline: none;
+  color: var(--gray-300);
+}
+.login form input:hover,
+.login form input:focus {
+  border-color: var(--red-500);
+}
+
+.content aside img {
+  width: 400px;
+  height: 400px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
