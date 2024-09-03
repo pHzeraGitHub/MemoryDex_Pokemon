@@ -4,6 +4,17 @@
 
 **Memoridex** é um jogo de memória baseado em Pokémon, onde os jogadores devem combinar pares de cartas com imagens de Pokémon. O jogo registra o número de passos que o jogador leva para completar o jogo e exibe os resultados em um ranking. O jogo foi desenvolvido utilizando React, JavaScript e CSS.
 
+## Capturas de Tela
+
+### Página Inicial
+![Home Page](./assets/screenshots/home-page.png)
+
+### Página do Jogo
+![Game Page](./assets/screenshots/game-page.png)
+
+### Página de Ranking
+![Ranking Page](./assets/screenshots/ranking-page.png)
+
 ## Funcionalidades
 
 - **Jogo da Memória:** Combine pares de cartas com Pokémon.
